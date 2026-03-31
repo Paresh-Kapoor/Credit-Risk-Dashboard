@@ -26,7 +26,7 @@ st.markdown("---")
 def load_model_and_explainer():
     """Loads the model once and caches it in memory for speed."""
     try:
-        model = joblib.load('../models/credit_risk_model.pkl')
+        model = joblib.load('models/credit_risk_model.pkl')
         explainer = shap.TreeExplainer(model)
         # Get the exact 28 feature names the XGBoost model expects
         feature_names = model.get_booster().feature_names
