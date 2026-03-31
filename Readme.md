@@ -2,6 +2,8 @@
 
 **An end-to-end Machine Learning pipeline and interactive dashboard that predicts loan defaults and mathematically explains its reasoning to ensure regulatory compliance.**
 
+**🌟 Try the Live App Here:** [here](https://credit-risk-dashboard-by-paresh-kapoor.streamlit.app/)
+
 ## **🏢 Business Context: Why Banks Need This**
 
 In the BFSI sector, minimizing loan defaults is critical to maintaining liquidity. However, simply building a highly accurate "Black Box" AI is no longer acceptable. Regulators (like the RBI) require **Explainable AI (XAI)**. If a customer is denied a loan, the bank must be able to explain exactly *why* to avoid discriminatory lending practices.
